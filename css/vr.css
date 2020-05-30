@@ -3,7 +3,6 @@
 	position: relative;
 	margin: 0 auto;
 	background-size: 100%;
-	padding-top: 5px;
 	background-image: url(../img/фон3.jpg);
 }
 .header{
@@ -55,12 +54,48 @@ ul li{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .headline{
-
-	text-shadow: 2px 3px 0px black;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: orange;
 	text-transform: uppercase;
+}
+.headline1{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 120px;
+	margin-left: 50px;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: orange;
+	text-transform: uppercase;
+}
+.headline3{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 140px;
+	float: right;
+	margin-right: -8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: orange;
+	text-transform: uppercase;
+}
+.headline1:hover{
+	color: white;
+	background: orange;
+}
+.headline3:hover{
+	color: white;
+	background: orange;
+}
+.headline:hover{
+	color: white;
+	background: orange;
 }
 .nav{
 	background-image: url(../img/13.jpg); 
@@ -186,4 +221,11 @@ ul li{
 }
 .f{
 	margin-left: 200px;
+}
+.f6{
+	padding: 10px;
+	width: 1000px;
+	height: 550px;
+	text-align: center;
+	background-image: url(../img/VR.gif);
 }
